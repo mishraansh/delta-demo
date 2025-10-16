@@ -198,8 +198,35 @@ a {
     align-items: center;
 }
 .album{
-    width: 50%;
-    background-color: palevioletred;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+    
+}
+.minmin{
+   height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+.n{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    opacity: 2;
+     position: relative; 
+     left: 5px; 
+    bottom: 8px;
+}
+
+.suul{
+    position: relative;
+    top: 30px;
+    left: 20px;
+
+}
+.ganeshji{
+    height: 180px;;
 }
 .player{
     width: 50%;
@@ -208,7 +235,7 @@ a {
 }
 .controls{
     width: 25%;
-    background-color: greenyellow;
+    background-color:black;
 }
 .player-controls{
     display: flex;
@@ -249,4 +276,8 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 
+}
+.range::-webkit-slider-thumb {
+    appearance: none;
+     background-color:#1bd760 ;
 }
